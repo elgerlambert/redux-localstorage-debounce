@@ -1,0 +1,40 @@
+{
+  "name": "redux-localstorage-debounce",
+  "version": "0.1.0",
+  "description": "Storage enhancer to debounce persist requests.",
+  "main": "lib",
+  "scripts": {
+    "prepublish": "make lint clean build"
+  },
+  "files": [
+    "lib/",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elgerlambert/redux-localstorage-debounce.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-localstorage",
+    "storage enhancer",
+    "debounce"
+  ],
+  "author": "Elger Lambert <elgerlambert@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elgerlambert/redux-localstorage-debounce/issues"
+  },
+  "homepage": "https://github.com/elgerlambert/redux-localstorage-debounce#readme",
+  "dependencies": {
+    "lodash.debounce": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-eslint": "^4.1.0",
+    "eslint": "^1.3.1",
+    "eslint-config-airbnb": "0.0.8"
+  }
+}
