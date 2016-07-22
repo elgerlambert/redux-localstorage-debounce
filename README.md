@@ -18,7 +18,7 @@ const storage = compose(
   debounce(100),
 )(adapter(localStorage));
 ```
-For more information on using storage enhancers check out [redux-localstorage](elgerlambert/redux-localstorage)
+For more information on using storage enhancers check out [redux-localstorage](https://github.com/elgerlambert/redux-localstorage/)
 
 ## API
 ### debounce(wait[, maxWait])
